@@ -24,7 +24,7 @@ def push(elem: Any) -> None:
 
 
 
-def pop(staсk) -> Any:
+def pop() -> Any:
     """
     Pop element from the top of the stack. If not elements - should return None.
 
