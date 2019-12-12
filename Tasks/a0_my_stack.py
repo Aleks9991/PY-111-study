@@ -16,8 +16,8 @@ def push(elem: Any) -> None:
 	"""
 	print('Добавили элемент {} в стек.'.format(elem))
 
-	global stack
-	stack.append(elem)
+	global staсk
+	staсk.append(elem)
 
 	return None
 
@@ -30,6 +30,9 @@ def pop() -> Any:
 
 	:return: popped element
 	"""
+
+    print('Удалили элемент {} из стека.'.format())
+
 	return None
 
 
@@ -54,4 +57,4 @@ def clear() -> None:
 
 if __name__ == '__main__':
 	push(1)
-	print(stack)
+	print(staсk)
