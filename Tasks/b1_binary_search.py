@@ -28,6 +28,7 @@ def min_elem(find_elem, arr):
 				right = middle - 1
 			else:
 				left = middle + 1
+		return index
 
 
 	# for i, elem in enumerate(array):
