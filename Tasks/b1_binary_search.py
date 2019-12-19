@@ -15,6 +15,7 @@ def binary_search(elem: Any, arr: Sequence) -> Optional[int]:
 
 def min_elem(find_elem, arr):
 	index = None
+	find_elem = np.random.choice(array)
 	left = 0
 	right = len(arr) - 1
 	middle = (left + right) // 2
@@ -28,23 +29,10 @@ def min_elem(find_elem, arr):
 				right = middle - 1
 			else:
 				left = middle + 1
-		return index
-
-
-	# for i, elem in enumerate(array):
-	# 	if elem == find_elem:
-	# 		array_1 = array // 2
-	# 		index = i
-	# 		for i in range(array_1):
-	# 			if i in array_1:
-	# 				array_2 = array_1 // 2
-	# 			else:
-
-
 
 
 if __name__ == "__main__":
-	n = 20
+	n = 10
 	array = np.arange(n)
 	find_elem = np.random.choice(array)
 	np.random.shuffle(array)
