@@ -48,7 +48,7 @@ for _ in range(i + j):
         i -= 1
     else:
         j -= 1
-    steps.append((i, j)) # добавляем шаг
+    steps.append((i, i)) # добавляем шаг
 
 print(A)
 steps.reverse()
